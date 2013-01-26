@@ -21,9 +21,24 @@ body{
   color: #fff;
 }
 
+/* Links */
+a {color:#84c225; text-decoration: none}
+a:hover {color:#84c225;}
+a:visited {color:#4A662F;}
+a:visited:hover {color:#AABF56;}
+
+.container{
+  background: #111;
+}
+
+.bg3{
+  background: #333;
+}
+
+/* #Header
+================================================== */
 #blog_title{
-  margin-top: 20px;
-  margin-left: 40px;
+  margin: 20px auto;
   width: 207px;
   height: 70px;
   background: url('../images/logo.png') no-repeat;
@@ -34,13 +49,23 @@ body{
 #blog_title span{display:none}
 
 #header{
-  background: #111;
   width: 100%;
   overflow: hidden;
 }
 
 .buttons{
-  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.buttons ul{
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  overflow: hidden;
+}
+.buttons li{
+  float: left;
+  margin: 0 10px;
 }
 
 #bio{
@@ -57,6 +82,11 @@ body{
   float: left;
 }
 
+.li_menu li a{
+  padding: 7px 7px 7px;
+  display: block;
+}
+
 #nav_menu ul{
   height: 30px;
   margin: 0;
@@ -64,21 +94,39 @@ body{
 
 #nav_menu ul li{
   margin: 0 10px;
+  font-size: 0.9em;
 }
 
-#sidebar{
-  background: #0f0;
+.searchbox{
+  margin: 2px;
 }
+.searchbox fieldset, form{
+  margin: 0 auto;
+}
+.searchbox input{
+  display: inline;
+  padding-right:24px;
+  margin: 2px auto;
+  height: 12px;
+}
+.searchbox button{
+  margin: 0 -26px;
+  height: 18px;
+  background: url('../images/search.png') no-repeat;
+  border: 0;
+}
+
+/* #Sidebar
+================================================== */
+#sidebar{
+}
+
+/* #Footer
+================================================== */
 
 #footer{
-  background:#00f;
+  background:#000;
 }
-
-/* Links */
-a {color:#84c225; text-decoration: none}
-a:hover {color:#84c225;}
-a:visited {color:#4A662F;}
-a:visited:hover {color:#AABF56;}
 
 /* #Page Styles
 ================================================== */

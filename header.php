@@ -55,39 +55,53 @@
           </a>
         </div>
 
-        <div class="seven columns">
-          <ul class="li_menu buttons">
+        <div class="seven columns buttons">
+          <ul class="li_menu">
             <li>
-              <img src="<?php bloginfo('template_url');?>/images/rss.png" alt="RSS"/>
+              <a href="http://feeds.feedburner.com/picandocodigo" title="Feed RSS">
+                <img src="<?php bloginfo('template_url');?>/images/rss.png" alt="RSS"/>
+              </a>
             </li>
             <li>
-              <img src="<?php bloginfo('template_url');?>/images/github.png" alt="GitHub"/>
+              <a href="http://github.com/picandocodigo" title="GitHub">
+                <img src="<?php bloginfo('template_url');?>/images/github.png" alt="GitHub"/>
+              </a>
             </li>
             <li>
-              <img src="<?php bloginfo('template_url');?>/images/twitter.png" alt="Twitter"/>
+              <a href="http://twitter.com/picandocodigo" title="Twitter">
+                <img src="<?php bloginfo('template_url');?>/images/twitter.png" alt="Twitter"/>
+              </a>
             </li>
             <li>
-              <img src="<?php bloginfo('template_url');?>/images/identi.ca.png" alt="Identica"/>
-            </li>
-            <li>
-              <img src="<?php bloginfo('template_url');?>/images/steam.png" alt="Steam"/>
+              <a href="http://identi.ca/picandocodigo" title="Identi.ca">
+                <img src="<?php bloginfo('template_url');?>/images/identi.ca.png" alt="Identica"/>
+              </a>
             </li>
         </div>
-
       </div>
+
       <div class="three columns">
-        
         <p id="bio">
           Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a> y desde 2007 este es mi blog sobre programaci&oacute;n, software libre y dem&aacute;s.
         </p>
       </div>
 
-      <div id="nav_menu" class="sixteen columns">
-        <ul class="li_menu">
-          <li>Casita</li>
-          <li>Programación</li>
-          <li>Software Libre</li>
-          <li>Comics</li>
-        </ul>
+      <div class="sixteen columns bg3">
+        <div class="eleven columns" id="nav_menu">
+          <ul class="li_menu">
+            <li><a href="Home">Casita</a></li>
+            <li><a href="Home">Programación</a></li>
+            <li><a href="Home">Software Libre</a></li>
+            <li><a href="Home">Comics</a></li>
+          </ul>
+        </div>
+        <div class="four columns searchbox">
+          <form method="get" action="<?php bloginfo('url'); ?>/">
+					  <fieldset>
+              <input type="text" name="s" class="text" />
+              <button type="submit"/>
+					  </fieldset>
+				  </form>
+        </div>
       </div>
     </div>
