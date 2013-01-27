@@ -110,6 +110,7 @@ a:visited:hover {color:#AABF56;}
   padding-right:24px;
   margin: 2px auto;
   height: 12px;
+  border-radius: 20px;
 }
 .searchbox button{
   margin: 0 -26px;
@@ -174,8 +175,68 @@ a:visited:hover {color:#AABF56;}
 .meta_bottom ul.li_menu li.read{
   padding: 4px 10px;
   border: solid 1px;
-  background: #a9a;
+  background: #bcb;
 }
+
+.post_meta{
+  background: #efe;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* #Post comments
+================================================== */
+
+.comments h4, h3{
+  color: #fff
+}
+
+.comments ol{
+  margin: 0;
+  list-style: none;
+}
+
+.comments ul{
+  margin: 0;
+}
+
+.comments li{
+  padding: 10px;
+  overflow: hidden;
+  clear: both;
+  border-radius: 10px;
+  border: solid 1px #333;
+}
+
+.comments li img{
+  margin: 10px;
+}
+
+.comments .author{
+  font-weight: bold;
+}
+.comments .user{
+  background: #222;
+}
+.comments .admin{
+  background: #111;
+  border: solid 1px #777;
+}
+.comments .admin .avatar{
+float: right;
+}
+
+.avatar {
+  float: right;
+}
+
+.comments .reply{
+  float: left;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  background: url("../images/reply.png") no-repeat;
+}
+
 /* WordPress */
 
 .alignleft {
@@ -222,6 +283,11 @@ a:visited:hover {color:#AABF56;}
 /* #Sidebar
 ================================================== */
 #sidebar{
+
+}
+
+#sidebar h2{
+  color: #fff;
 }
 
 /* #Footer
