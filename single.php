@@ -49,9 +49,7 @@
         <a href="http://feedburner.google.com/fb/a/mailverify?uri=picandocodigo&amp;loc=es_ES"> Suscribirse a los posts por correo electrónico.</a>
 
       <?php endwhile; ?>
-	    <?php else :
-            include("nothing_found.php");
-            endif; ?>
+	    <?php endif; ?>
       </div>
     </div>
 <?php comments_template(); ?>

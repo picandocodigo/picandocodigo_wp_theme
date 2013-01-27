@@ -35,6 +35,10 @@ a:visited:hover {color:#AABF56;}
   background: #333;
 }
 
+blockquote p{
+  font-size: 0.8em;
+}
+
 /* #Header
 ================================================== */
 #blog_title{
@@ -195,7 +199,6 @@ a:visited:hover {color:#AABF56;}
 }
 
 .post_meta{
-  background: #efe;
   text-align: center;
   font-size: 0.9em;
   margin: 20px 0;
@@ -328,10 +331,6 @@ float: right;
 
 /* #Sidebar
 ================================================== */
-#sidebar{
-
-}
-
 #sidebar h2{
   color: #fff;
 }
@@ -382,6 +381,35 @@ float: right;
 
 /* #Page Styles
 ================================================== */
+.codigo{
+  background: #151515 url('../images/terminal.png') 3px 3px no-repeat;
+  color: #fff;
+  font-family: courier;
+  padding: 26px 10px;
+  margin-bottom: 30px;
+}
+.codigo code{
+		background: #151515;
+}
+
+.obvio{
+  background: #f1f0ad url('../images/capitan-obvio.png') 3px 3px no-repeat;
+  color: #000;
+  font-family: courier;
+  padding: 26px 10px;
+  margin-bottom: 30px;
+}
+
+.buena-idea{
+  background: #a7cdc2 url('../images/buena-idea.png') 3px 3px no-repeat;
+  color: #000;
+  font-family: courier;
+  padding: 26px 10px;
+  margin-bottom: 30px;
+}
+
+
+
 
 /* #Media Queries
 ================================================== */

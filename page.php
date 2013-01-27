@@ -17,9 +17,7 @@
       </div>
 
     <?php endwhile; ?>
-  <?php else :
-        include("nothing_found.php");
-        endif; ?>
+  <?php endif; ?>
   <?php comments_template(); ?>
 </div>
 
