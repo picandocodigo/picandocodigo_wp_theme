@@ -25,7 +25,7 @@
 			  <?php wp_list_comments('callback=picandocodigo_comments&type=comment'); ?>
 		  </ol>
     <?php endif;?>
-
+    <div class="form">
     <h4>
       <?php comment_form_title( 'Dejar un comentario', 'Responder a  %s' ); ?>
     </h3>
@@ -85,32 +85,34 @@
         <?php else : ?><!-- 3 not logged in -->
           <p> <?php do_action('alt_comment_login');?>
             <label for="author">
-              <small>Nombre (requerido)</small>
+              Nombre (requerido)
             </label>
             <input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
           </p>
 
           <p>
             <label for="email">
-              <small>
-                E-Mail (no va a ser publicado) (requerido)
-              </small>
+              E-Mail (no va a ser publicado) (requerido)
             </label>
             <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
           </p>
 
           <p>
-            <label for="url"><small>Sitio web</small></label><br/>
+            <label for="url">
+              Sitio web
+            </label>
             <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
           </p>
         <?php endif; ?><!-- 3 -->
 
         <p>
-          <textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"/></textarea>
+          <label for="comment">Comentario</label>
+          <textarea name="comment" id="comment" cols="150" rows="10" tabindex="4"/></textarea>
         </p>
         <input name="submit" type="submit" id="submit" tabindex="5" value="Enviar comentario" />
         <?php do_action('comment_form', $post->ID); ?>
       </form>
+      </div>
     <?php endif; ?><!-- 2 -->
 
   <?php else: ?><!-- 1 -->
