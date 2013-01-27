@@ -27,7 +27,9 @@
         </ul>
       </div>
 
-      <?php the_content(); ?>
+      <div class="eleven columns">
+        <?php the_content(); ?>
+      </div>
 
       <div class="<?php echo $class;?> columns meta_bottom">
           <ul class="li_menu">

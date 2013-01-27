@@ -12,8 +12,9 @@
         </h2>
 
         <?php edit_post_link('Editar p&aacute;gina'); ?>
-
-        <?php the_content(); ?>
+        <div class="eleven columns">
+          <?php the_content(); ?>
+        </div>
       </div>
 
     <?php endwhile; ?>
