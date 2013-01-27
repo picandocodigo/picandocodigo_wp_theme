@@ -14,7 +14,7 @@
 <!-- End of WordPress stuff -->
 
 
-<div class="comments twelve columns" id="comments">
+<div class="comments" id="comments">
   <?php if ( comments_open() ):?> <!--// 1 - comments open -->
     <h3>
       <?php comments_number('No hay comentarios', 'Un comentario', '% comentarios' );?> para la entrada.
@@ -50,8 +50,6 @@
         Al agregar un comentario en esta p&aacute;gina,
         aceptas la siguiente licencia para su publicaci&oacute;n:<br/>
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es">
-          <img alt="Creative Commons License" border="0" id="license"
-               src="<?php bloginfo('template_url');?>/images/license.png"/>
           Creative Commons Attribution-Share Alike 3.0 Unported License
         </a>
       </p>

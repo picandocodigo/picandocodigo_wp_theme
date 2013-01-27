@@ -58,7 +58,7 @@
       <div class="thirteen columns">
 
         <div class="five columns">
-          <a href="/">
+          <a href="<?php bloginfo('url');?>">
             <h1 id="blog_title"><span>Picando C&oacute;digo</span></h1>
           </a>
         </div>
@@ -102,7 +102,7 @@
       <div class="sixteen columns bg3">
         <div class="eleven columns" id="nav_menu">
           <ul class="li_menu">
-            <li class="house"><a href="http://picandocodigo.net/" title="Inicio"> </a></li>
+            <li class="house"><a href="<?php bloginfo('url');?>" title="Inicio"> </a></li>
             <li><a href="http://picandocodigo.net/programacion/">Programaci&oacute;n</a></li>
             <li><a href="http://picandocodigo.net/software-libre/">Software Libre</a></li>
             <li><a href="http://picandocodigo.net/comics/">Comics</a></li>

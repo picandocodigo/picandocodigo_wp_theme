@@ -42,10 +42,8 @@
       </div>
 
       <div class="twelve columns post_meta">
-        <a href="http://picandocodigo.net/2013/half-life-beta-para-steam-en-linux/feed/">
-          Feed de comentarios
-        </a> | 
-        <a href="http://picandocodigo.net/2013/half-life-beta-para-steam-en-linux/trackback/" rel="trackback">
+        <?php comments_rss_link('Feed de comentarios'); ?> | 
+        <a href="<?php trackback_url(true); ?>" rel="trackback">
           Url para Trackbacks
         </a> | 
         <a href="http://feedburner.google.com/fb/a/mailverify?uri=picandocodigo&amp;loc=es_ES"> Suscribirse a los posts por correo electrónico.</a>
