@@ -24,13 +24,12 @@
     </ul>
   </div>
   <div class="twelve columns footer_right">
-    <p class="cc">
+    <div class="cc">
       Los contenidos de éste sitio se encuentran publicados bajo <a href="http://picandocodigo.net/about/licencia/">licencia Creative Commons</a> a menos que sea indicado de otra forma.<br/>
-
       Todo el <strong>c&oacute;digo fuente</strong> publicado se libera bajo una licencia de software libre como <a href="http://picandocodigo.net/downloads/gpl.txt">GPL</a> o similar.
-    </p>
+    </div>
 
-    <p class="wordpress">
+    <div class="wordpress">
       Picando Código está orgulloso de ser gestionado con <a href="http://wordpress.org">WordPress</a> y es alojado por <a href="http://picod.net/hg" title="Hostgator">Hostgator</a>.
     </p>
   </div>

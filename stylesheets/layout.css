@@ -351,26 +351,31 @@ float: right;
 }
 
 .footer_left{
-  padding-top: 80px;
-  padding-left: 30px;
-  background: url('../images/mini-logo.png') no-repeat 10px 10px;
+  padding-top: 100px;
+  padding-left: 40px;
+  background: url('../images/mini-logo.png') no-repeat 20px 20px;
 }
 
 .footer_right{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
-.footer_right p{
+.footer_right div{
   margin-bottom: 30px;
   padding-left: 38px;
-  height: 32px;
+  min-height: 32px;
+}
+.footer_right div p{
+    margin-bottom: -2px;
 }
 .cc{
   background: url('../images/cc.png') no-repeat;
+  clear: both;
 }
 
 .wordpress{
   background: url('../images/wordpress.png') no-repeat;
+  clear: both;
 }
 
 /* #Page Styles
