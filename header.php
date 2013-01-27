@@ -108,11 +108,11 @@
             <li><a href="http://picandocodigo.net/comics/">Comics</a></li>
           </ul>
         </div>
-        <div class="four columns searchbox">
+        <div class="searchbox">
           <form method="get" action="<?php bloginfo('url'); ?>/">
 					  <fieldset>
               <input type="text" name="s" class="text" />
-              <button type="submit"/>
+              <button type="submit">Buscar</button>
 					  </fieldset>
 				  </form>
         </div>
