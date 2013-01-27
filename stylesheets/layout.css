@@ -103,8 +103,8 @@ blockquote p{
   width: 16px;
   background: url("../images/home.png") no-repeat 7px 7px;
 }
-#nav_menu li a.house:hover{
-  background: #f00 url("../images/home_a.png") no-repeat 4px 7px;
+.house a:hover{
+  background: #fff url("../images/home_a.png") no-repeat 7px 7px !important;
 }
 
 #nav_menu ul{
