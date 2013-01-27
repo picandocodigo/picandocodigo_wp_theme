@@ -1,4 +1,4 @@
-<div id="sidebar" class="three columns">
+<div id="sidebar" class="four columns">
 	<div class="horizontal">
 		<?php if ( !function_exists('dynamic_sidebar')
 					|| !dynamic_sidebar(1) ) : ?>

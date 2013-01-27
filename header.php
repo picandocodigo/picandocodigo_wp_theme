@@ -77,6 +77,11 @@
                 <img src="<?php bloginfo('template_url');?>/images/identi.ca.png" alt="Identica"/>
               </a>
             </li>
+            <li>
+              <a href="/contact" title="Contacto">
+                <img src="<?php bloginfo('template_url');?>/images/mail.png" alt="Contacto"/>
+              </a>
+            </li>
         </div>
       </div>
 
