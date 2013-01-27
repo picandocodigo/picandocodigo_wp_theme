@@ -229,6 +229,38 @@ a:visited:hover {color:#AABF56;}
 
 #footer{
   background:#000;
+  font-size: 0.8em;
+}
+
+#footer strong{
+  color: #fff;
+}
+
+#footer ul{
+ list-style: disc;
+}
+
+.footer_left{
+  padding-top: 80px;
+  padding-left: 30px;
+  background: url('../images/mini-logo.png') no-repeat 10px 10px;
+}
+
+.footer_right{
+  padding-top: 10px;
+}
+
+.footer_right p{
+  margin-bottom: 30px;
+  padding-left: 38px;
+  height: 32px;
+}
+.cc{
+  background: url('../images/cc.png') no-repeat;
+}
+
+.wordpress{
+  background: url('../images/wordpress.png') no-repeat;
 }
 
 /* #Page Styles
