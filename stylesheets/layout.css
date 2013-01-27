@@ -449,6 +449,33 @@ video {
   margin-bottom: 30px;
 }
 
+.coderef{
+    margin: 20px;
+    color: #fff;
+    min-width: 500px;
+}
+
+.coderef thead tr{
+    background: #222 url(/wp-content/themes/picandocodigo-4.0/images/terminal.png) 3px 3px no-repeat;
+}
+
+.coderef thead tr th{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.coderef tbody tr{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #84c225;
+}
+
+.coderef tbody tr td{
+    padding: 10px;
+    background: #333;
+}
+
+
 
 
 
