@@ -66,7 +66,7 @@ function picandocodigo_comments($comment, $args, $depth) {
       <br/>
       <div class="ping-text"><?php comment_text() ?></div>
 
-  // Regular comments
+  <!--// Regular comments-->
   <?php else: ?>
     <li
        class="<?php if ($comment->user_id == 1) : echo "admin"; else: echo "user"; endif; ?>"

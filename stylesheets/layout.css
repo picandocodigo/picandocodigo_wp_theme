@@ -83,10 +83,24 @@ a:visited:hover {color:#AABF56;}
 }
 
 #nav_menu li a{
-  padding: 7px 7px 7px;
+  padding: 7px 10px;
   display: block;
   font-weight: bold;
   color: #fff;
+  height: 30px;
+}
+
+#nav_menu li a:hover{
+  color: #010;
+  background: #fff;
+}
+
+.house a{
+  width: 16px;
+  background: url("../images/home.png") no-repeat 7px 7px;
+}
+#nav_menu li a.house:hover{
+  background: #f00 url("../images/home_a.png") no-repeat 4px 7px;
 }
 
 #nav_menu ul{
@@ -95,8 +109,9 @@ a:visited:hover {color:#AABF56;}
 }
 
 #nav_menu ul li{
-  margin: 0 10px;
+  margin: 0;
   font-size: 0.9em;
+  height: 30px;
 }
 
 .searchbox{
@@ -148,6 +163,7 @@ a:visited:hover {color:#AABF56;}
 
 .post ul.li_menu li{
   font-weight: bold;
+  font-size: 0.8em;
   margin-right: 20px;
   padding: 4px 4px 4px 20px;
 }

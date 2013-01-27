@@ -38,10 +38,9 @@
                         '% comentarios');
                         ?>
                 </a>
+                <?php edit_post_link('Editar entrada'); ?>
               </li>
             </ul>
-
-            <?php edit_post_link('Editar entrada'); ?>
           </div>
 
           <?php the_excerpt(); ?>

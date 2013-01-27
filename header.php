@@ -102,10 +102,10 @@
       <div class="sixteen columns bg3">
         <div class="eleven columns" id="nav_menu">
           <ul class="li_menu">
-            <li><a href="Home">Casita</a></li>
-            <li><a href="Home">Programación</a></li>
-            <li><a href="Home">Software Libre</a></li>
-            <li><a href="Home">Comics</a></li>
+            <li class="house"><a href="http://picandocodigo.net/" title="Inicio"> </a></li>
+            <li><a href="http://picandocodigo.net/programacion/">Programaci&oacute;n</a></li>
+            <li><a href="http://picandocodigo.net/software-libre/">Software Libre</a></li>
+            <li><a href="http://picandocodigo.net/comics/">Comics</a></li>
           </ul>
         </div>
         <div class="four columns searchbox">
