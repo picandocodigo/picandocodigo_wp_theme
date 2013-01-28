@@ -3,11 +3,14 @@
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="post" id="post-<?php the_ID(); ?>">
-      <h2>
-        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-          <?php the_title(); ?>
-        </a>
-      </h2>
+
+      <div class="eleven columns">
+        <h2>
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+            <?php the_title(); ?>
+          </a>
+        </h2>
+      </div>
 
       <div class="eleven columns meta_top">
         <ul class="li_menu">
@@ -26,8 +29,10 @@
           <?php edit_post_link('Editar entrada'); ?>
         </ul>
       </div>
+      <div class="clear"> </div>
 
       <?php the_content(); ?>
+
 
       <div class="<?php echo $class;?> columns meta_bottom">
           <ul class="li_menu">

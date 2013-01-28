@@ -39,6 +39,10 @@ blockquote p{
   font-size: 0.8em;
 }
 
+.clear{
+  clear: both;
+}
+
 /* #Header
 ================================================== */
 #blog_title{
@@ -163,11 +167,6 @@ blockquote p{
 .post a:visited {color:#4A662F;}
 .post a:visited:hover {color:#AABF56;}
 
-
-.meta_top{
-
-}
-
 .post ul.li_menu li{
   font-weight: bold;
   font-size: 0.8em;
@@ -205,6 +204,10 @@ blockquote p{
   text-align: center;
   font-size: 0.9em;
   margin: 20px 0;
+}
+
+.post_content{
+  clear: both;
 }
 
 /* #Post comments

@@ -10,7 +10,7 @@
             <?php the_title(); ?>
           </a>
         </h2>
-
+        <div class="clear"> </div>
         <?php edit_post_link('Editar p&aacute;gina'); ?>
 
         <?php the_content(); ?>

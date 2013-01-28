@@ -44,7 +44,9 @@
           </ul>
         </div>
 
-        <?php the_excerpt(); ?>
+        <div class="columns post_content">
+          <?php the_excerpt(); ?>
+        </div>
 
         <div class="<?php echo $class;?> columns meta_bottom">
           <ul class="li_menu">
