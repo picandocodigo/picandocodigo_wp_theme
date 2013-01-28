@@ -35,10 +35,10 @@
 
   <!-- Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.png">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/images/favicon.png">
+  <link rel="apple-touch-icon" href="<?php bloginfo('template_url');?>/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url');?>/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url');?>/images/apple-touch-icon-114x114.png">
 
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/picandocodigo" />
   <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://feeds.feedburner.com/picandocodigo" />
