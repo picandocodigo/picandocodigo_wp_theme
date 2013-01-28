@@ -95,7 +95,7 @@
 
       <div class="three columns">
         <p id="bio">
-          Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a> y desde 2007 este es mi blog sobre programaci&oacute;n, software libre y dem&aacute;s.
+                                                         Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a>, soy programador y trabajo en <a href="http://neo.com" title="Neo">Neo</a>.
         </p>
       </div>
 

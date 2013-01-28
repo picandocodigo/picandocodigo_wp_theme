@@ -18,12 +18,13 @@
              else:
                $class = "eleven";
              endif; ?>
-
-        <h2>
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-            <?php the_title(); ?>
-          </a>
-        </h2>
+        <div class="<?php echo $class;?> columns">
+          <h2>
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+              <?php the_title(); ?>
+            </a>
+          </h2>
+        </div>
 
         <div class="<?php echo $class;?> columns meta_top">
           <ul class="li_menu">
@@ -55,15 +56,15 @@
               <?php the_tags('') ?>
             </li>
           </ul>
+
         </div>
-
     </div><!-- endpost -->
-  <?php endwhile; ?>
+    <?php endwhile; ?>
 
-  <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
-	<?php else :
-    include("nothing_found.php");
-  endif; ?>
+    <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+	  <?php else :
+          include("nothing_found.php");
+          endif; ?>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
