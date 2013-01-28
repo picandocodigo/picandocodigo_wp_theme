@@ -18,47 +18,45 @@
              else:
                $class = "eleven";
              endif; ?>
-        <div class="<?php echo $class;?> columns">
-          <h2>
-            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-              <?php the_title(); ?>
-            </a>
-          </h2>
 
-          <div class="<?php echo $class;?> columns meta_top">
-            <ul class="li_menu">
-              <li class="date">
-                <?php the_time('F') ?> <?php the_time('j') ?>, <?php the_time('Y') ?>
-              </li>
-              <li class="comments">
-                <a href="<?php comments_link(); ?>">
-                  <?php comments_number(
-                        '0 comentarios',
-                        '1 comentario',
-                        '% comentarios');
-                        ?>
-                </a>
-                <?php edit_post_link('Editar entrada'); ?>
-              </li>
-            </ul>
-          </div>
+        <h2>
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+            <?php the_title(); ?>
+          </a>
+        </h2>
 
-          <?php the_excerpt(); ?>
-
-          <div class="<?php echo $class;?> columns meta_bottom">
-            <ul class="li_menu">
-              <li class="read"><a href="<?php the_permalink(); ?>">Leer entrada</a></li>
-              <li class="category">
-                <?php the_category(' | ') ?>
-              </li>
-              <li class="tag">
-                <?php the_tags('') ?>
-              </li>
-            </ul>
-
-          </div>
-
+        <div class="<?php echo $class;?> columns meta_top">
+          <ul class="li_menu">
+            <li class="date">
+              <?php the_time('F') ?> <?php the_time('j') ?>, <?php the_time('Y') ?>
+            </li>
+            <li class="comments">
+              <a href="<?php comments_link(); ?>">
+                <?php comments_number(
+                      '0 comentarios',
+                      '1 comentario',
+                      '% comentarios');
+                      ?>
+              </a>
+              <?php edit_post_link('Editar entrada'); ?>
+            </li>
+          </ul>
         </div>
+
+        <?php the_excerpt(); ?>
+
+        <div class="<?php echo $class;?> columns meta_bottom">
+          <ul class="li_menu">
+            <li class="read"><a href="<?php the_permalink(); ?>">Leer entrada</a></li>
+            <li class="category">
+              <?php the_category(' | ') ?>
+            </li>
+            <li class="tag">
+              <?php the_tags('') ?>
+            </li>
+          </ul>
+        </div>
+
     </div><!-- endpost -->
   <?php endwhile; ?>
 

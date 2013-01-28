@@ -17,7 +17,8 @@
         'Dividiendo entre cero, por favor aguarde en l&iacute;nea.',
         'Ayuda, me tienen atrapado en un s&oacute;tano escribiendo mensajes para este sitio.',
         'Es culpa de PHP, estas cosas con Ruby no pasan.',
-        'El servidor Tomcat donde tenemos desplegada la aplicaci&oacute;n est&aacute; persiguiendo un puntero l&aacute;ser. Sospechamos que se cansar&aacute; en breve y volver&aacute; a sus tareas diarias como servidor')
+        'El servidor Tomcat donde tenemos desplegada la aplicaci&oacute;n est&aacute; persiguiendo un puntero l&aacute;ser. Sospechamos que se cansar&aacute; en breve y volver&aacute; a sus tareas diarias como servidor',
+        'Calentando motor de improbabilidad infinita')
 ?>
 
 <div class="twelve columns">
@@ -27,17 +28,18 @@
     </div>
     <div class="eight columns">
       <h2>No se encontr&oacute; lo que estabas buscando</h2>
-
-      <p>El enlace que seguiste no funciona. La consola de errores dice:</p>
-      <div class="codigo">
-        <?php $in = rand(0,18);
-              echo $mensajes[$in];
-            ?>
-      </div>
-      <p>Es poco probable que haya borrado la p&aacute;gina, por lo que debe andar cerca. Puedo busc&aacute;rtela, para eso por favor cont&aacute;ctame:</p>
-      <p>Ingresa al <strong><a href="http://picandocodigo.net/contacto/">formulario de contacto</a></strong> para escribirme.</p>
-      <p>O podr&iacute;as avisarme por <a href="http://twitter.com/picandocodigo">Twitter</a> o <a href="http://identi.ca/picandocodigo">Identi.ca</a> si tienes una cuenta ah&iacute;.</p>
     </div>
+
+    <p>El enlace que seguiste no funciona. La consola de errores dice:</p>
+    <div class="codigo">
+      <?php $in = rand(0,18);
+            echo $mensajes[$in];
+            ?>
+    </div>
+    <p>Es probable que haya borrado la p&aacute;gina, por lo que debe andar cerca. Puedo busc&aacute;rtela, para eso por favor cont&aacute;ctame:</p>
+    <p>Ingresa al <strong><a href="http://picandocodigo.net/contacto/">formulario de contacto</a></strong> para escribirme.</p>
+    <p>O podr&iacute;as avisarme por <a href="http://twitter.com/picandocodigo">Twitter</a> o <a href="http://identi.ca/picandocodigo">Identi.ca</a> si tienes una cuenta ah&iacute;.</p>
+
   </div>
 
 </div>

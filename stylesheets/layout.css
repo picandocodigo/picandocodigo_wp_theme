@@ -375,6 +375,10 @@ video {
 
 /* #Sidebar
 ================================================== */
+#sidebar{
+  margin: 10px 10px;
+}
+
 #sidebar h2{
   color: #fff;
 }
