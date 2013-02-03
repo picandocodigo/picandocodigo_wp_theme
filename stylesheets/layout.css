@@ -285,6 +285,10 @@ float: right;
   float: right;
 }
 
+.comments p {
+  margin: 10px 0;
+}
+
 .comments .reply{
   float: left;
   margin-bottom: 10px;
