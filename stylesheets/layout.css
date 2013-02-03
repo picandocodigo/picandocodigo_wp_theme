@@ -61,6 +61,12 @@ blockquote p{
   overflow: hidden;
 }
 
+#header .sixteen{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .buttons{
   margin: 20px auto;
 }
@@ -91,11 +97,12 @@ blockquote p{
 }
 
 #nav_menu li a{
-  padding: 7px 10px;
+  padding: 0 10px;
   display: block;
   font-weight: bold;
   color: #fff;
-  height: 30px;
+  height: 34px;
+  line-height: 34px;
 }
 
 #nav_menu li a:hover{
@@ -105,44 +112,66 @@ blockquote p{
 
 .house a{
   width: 16px;
-  background: url("../images/home.png") no-repeat 7px 7px;
+  background: url("../images/home.png") no-repeat center center;
 }
 .house a:hover{
-  background: #fff url("../images/home_a.png") no-repeat 7px 7px !important;
+  background: #fff url("../images/home_a.png") no-repeat center center !important;
 }
 
 #nav_menu ul{
-  height: 30px;
+  height: 34px;
   margin: 0;
 }
 
 #nav_menu ul li{
   margin: 0;
   font-size: 0.9em;
-  height: 30px;
+  height: 34px;
 }
 
 .searchbox{
   padding: 2px;
   float: right;
-  width: 220px;
+  width: 200px;
 }
 .searchbox fieldset, form{
   margin: 0 auto;
 }
 .searchbox input{
   display: inline;
-  padding-right:24px;
+  padding: 5px;
   margin: 2px auto;
   height: 12px;
-  border-radius: 20px;
   width: 120px;
+  float: left;
+  
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .searchbox button{
-  margin: 0;
-  
+  margin: 2px 0;
+  padding: 6px;
+  float: left;
   border: 0;
   display: inline;
+  
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* #Posts
@@ -235,7 +264,7 @@ blockquote p{
 }
 
 .comments li img{
-  margin: 10px;
+  margin: 0;
 }
 
 .comments .author{
