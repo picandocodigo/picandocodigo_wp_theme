@@ -460,9 +460,12 @@ video {
 }
 
 .coderef{
-    margin: 20px;
-    color: #fff;
-    min-width: 500px;
+  margin: 20px;
+  color: #fff;
+}
+
+.coderef strong{
+  color: #fff !important;
 }
 
 .coderef thead tr{
