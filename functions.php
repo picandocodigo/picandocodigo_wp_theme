@@ -76,7 +76,6 @@ function picandocodigo_comments($comment, $args, $depth) {
         <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
           <?php comment_date('j F. Y') ?> - <?php comment_time() ?>
         </a>
-      </p>
 
       <?php if ($comment->comment_approved == '0') : ?>
         <em><p>Tu comentario est&aacute; esperando ser moderado.</p></em>
