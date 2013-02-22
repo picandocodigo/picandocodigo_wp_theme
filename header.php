@@ -95,7 +95,7 @@
 
       <div class="three columns">
         <p id="bio">
-                                                         Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a>, soy programador y trabajo en <a href="http://neo.com" title="Neo">Neo</a>.
+          Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a>, soy programador y trabajo en <a href="http://neo.com" title="Neo" class="neo"><span>Neo</span></a>.
         </p>
       </div>
 
@@ -110,11 +110,11 @@
         </div>
         <div class="searchbox">
           <form method="get" action="<?php bloginfo('url'); ?>/">
-					  <fieldset>
+            <fieldset>
               <input type="text" name="s" class="text" />
               <button type="submit">Buscar</button>
-					  </fieldset>
-				  </form>
+            </fieldset>
+          </form>
         </div>
       </div>
     </div>

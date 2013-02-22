@@ -174,6 +174,18 @@ blockquote p{
   border-bottom-right-radius: 5px;
 }
 
+.neo {
+  background: url("../images/neo.png") no-repeat scroll left top transparent;
+  display: inline-block;
+  height: 12px;
+  margin: 0 0.3em;
+  width: 35px;
+}
+
+.neo span{
+  display: none;
+}
+
 /* #Posts
 ================================================== */
 .post{
