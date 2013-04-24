@@ -71,8 +71,10 @@ function picandocodigo_comments($comment, $args, $depth) {
     <li
        class="<?php if ($comment->user_id == 1) : echo "admin"; else: echo "user"; endif; ?>"
        id="comment-<?php comment_ID() ?>">
-      <?php echo get_avatar( $comment, 50, null,"Avatar" ); ?>
-      <span class="author"><?php comment_author_link() ?></span>
+      <span class="author">
+       <?php echo get_avatar( $comment, 50, null,"Avatar" ); ?>
+       <?php comment_author_link() ?>
+      </span>
         <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
           <?php comment_date('j F. Y') ?> - <?php comment_time() ?>
         </a>

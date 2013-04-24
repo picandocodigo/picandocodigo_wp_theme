@@ -197,6 +197,9 @@ blockquote p{
   border-radius: 10px;
 }
 
+.post	ul { list-style: disc outside; }
+.post li { margin-left: 20px }
+
 .mini{
   font-size: 0.8em;
   max-height: 200px;
