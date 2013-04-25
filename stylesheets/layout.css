@@ -198,12 +198,17 @@ blockquote p{
 }
 
 .post	ul { list-style: disc outside; }
-.post li { margin-left: 20px }
+.post ul li { margin-left: 20px }
 
 .mini{
   font-size: 0.8em;
   max-height: 200px;
   mineight: 200px;
+}
+
+.post strong{
+    font-weight: bold;
+    color: inherit;
 }
 
 .post a {color:#4A662F; text-decoration: none}
@@ -215,6 +220,7 @@ blockquote p{
   font-weight: bold;
   font-size: 0.8em;
   margin-right: 20px;
+  margin-left: auto;
   padding: 4px 4px 4px 20px;
 }
 
