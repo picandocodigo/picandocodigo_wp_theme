@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 body{
-	background: #000 url('../images/bg.png') fixed;
+  background: #000 url('../images/bg.png') fixed;
   color: #fff;
 }
 
@@ -43,6 +43,20 @@ blockquote p{
   clear: both;
 }
 
+pre{
+  font-family: monospace, courier;
+  line-height: 30px;
+  margin: 5px;
+  padding: 2px 0 2px 10px;
+  background-color: #eee;
+  color: #000;
+}
+code{
+  font-family: monospace, courier;
+  background: #eee;
+  color: #231;
+  padding: 0 5px;
+}
 /* #Header
 ================================================== */
 #blog_title{
