@@ -67,7 +67,7 @@
 
     <?php else : ?><!--// 2 - no registered users -->
 
-      <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+      <form id="respond" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
         <?php comment_id_fields(); ?>
 
         <?php if ( is_user_logged_in() ) : ?><!--// 3 - está logueado -->
