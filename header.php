@@ -55,7 +55,7 @@
 
   <div class="container">
     <div id="header">
-      <div class="thirteen columns">
+      <div class="twelve columns">
 
         <div class="five columns">
           <a href="<?php bloginfo('url');?>">
@@ -63,7 +63,7 @@
           </a>
         </div>
 
-        <div class="seven columns buttons">
+        <div class="six columns buttons">
           <ul class="li_menu">
             <li>
               <a href="http://feeds.feedburner.com/picandocodigo" title="Feed RSS">
@@ -86,6 +86,11 @@
               </a>
             </li>
             <li>
+              <a href="http://steamcommunity.com/id/picandocodigo" title="Steam">
+                <img src="<?php bloginfo('template_url');?>/images/steam.png" alt="Steam"/>
+              </a>
+            </li>
+            <li>
               <a href="/contact" title="Contacto">
                 <img src="<?php bloginfo('template_url');?>/images/mail.png" alt="Contacto"/>
               </a>
@@ -93,7 +98,7 @@
         </div>
       </div>
 
-      <div class="three columns">
+      <div class="four columns">
         <p id="bio">
           Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a>, soy programador y trabajo en <a href="http://neo.com" title="Neo" class="neo"><span>Neo</span></a>.
         </p>
