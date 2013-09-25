@@ -52,6 +52,35 @@ if (!CUSTOM_TAGS) {
   );
 }
 
+function my_title(){
+  if(is_single()):
+    bloginfo('name') . ' &#8211; ' . wp_title();
+  else:
+    bloginfo('name');
+  endif;
+}
+
+
+function my_description(){
+  if(is_single()):
+    global $post;
+  return esc_html(wp_trim_words( strip_shortcodes($post->post_content) ) );
+  endif;
+
+  return bloginfo('description');
+}
+
+
+function my_thumbnail(){
+  if(is_single()):
+    global $post;
+    if(has_post_thumbnail($post->ID)):
+      return wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+    endif;
+  endif;
+  return "http://picandocodigo.net/wp-content/uploads/picandocodigo.png";
+}
+
 function picandocodigo_comments($comment, $args, $depth) {
   // Comentario actual
   $GLOBALS['comment'] = $comment;

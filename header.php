@@ -10,15 +10,8 @@
   <meta charset="utf-8">
   <title>
    <?php
-     if(is_single()):
-       wp_title();
-       echo ' - ';
-       bloginfo('name');
-     else:
-       bloginfo('name');
-     endif;
-    ?></title>
-  <meta name="description" content="">
+    my_title();
+   ?></title>
   <meta name="author" content="Fernando Briano">
 
   <!-- Mobile Specific Metas
@@ -43,6 +36,15 @@
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/picandocodigo" />
   <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://feeds.feedburner.com/picandocodigo" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@picandocodigo"/>
+  <meta name="twitter:title" content="<?php my_title(); ?>"/>
+  <meta name="twitter:description" content="<?php echo my_description(); ?>"/>
+  <meta name="twitter:creator" content="@picandocodigo"/>
+  <meta name="twitter:image:src" content="<?php echo my_thumbnail(); ?>"/>
+  <meta name="twitter:domain" content="picandocodigo.net"/>
+
   <?php wp_get_archives('type=monthly&format=link');
 	      if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 	      wp_head(); ?>
@@ -100,7 +102,7 @@
 
       <div class="four columns">
         <p id="bio">
-          Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a>, soy programador y trabajo en <a href="http://neo.com" title="Neo" class="neo"><span>Neo</span></a>.
+          Mi nombre es <a href="http://fernandobriano.com/">Fernando Briano</a> y soy programador.
         </p>
       </div>
 
