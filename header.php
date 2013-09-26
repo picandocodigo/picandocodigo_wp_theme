@@ -45,9 +45,11 @@
   <meta name="twitter:image:src" content="<?php echo my_thumbnail(); ?>"/>
   <meta name="twitter:domain" content="picandocodigo.net"/>
 
-  <?php wp_get_archives('type=monthly&format=link');
-	      if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-	      wp_head(); ?>
+  <?php
+    //wp_get_archives('type=monthly&format=link');
+    if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
+    wp_head();
+  ?>
 
 
 </head>
