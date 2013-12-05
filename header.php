@@ -20,7 +20,16 @@
 
   <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+  <?php
+    function picandocodigo_scripts(){
+      wp_enqueue_style( 'picandocodigo_base', get_template_directory_uri() . '/stylesheets/base.css' );
+      wp_enqueue_style( 'picandocodigo_skeleton', get_template_directory_uri() . '/stylesheets/skeleton.css' );
+      wp_enqueue_style( 'picandocodigo_layout', get_template_directory_uri() . '/stylesheets/layout.css' );
+      wp_enqueue_style( 'picandocodigo_pagenavi', get_template_directory_uri() . '/stylesheets/pagenavi-css.css' );
+    }
+    add_action( 'wp_enqueue_scripts', 'picandocodigo_scripts');
+    ?>
+  <!-- link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"-->
 
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
