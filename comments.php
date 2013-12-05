@@ -28,7 +28,7 @@
     <div class="form">
     <h4>
       <?php comment_form_title( 'Dejar un comentario', 'Responder a  %s' ); ?>
-    </h3>
+    </h4>
 
     <small><?php cancel_comment_reply_link() ?></small>
 
@@ -105,7 +105,7 @@
 
         <p>
           <label for="comment">Comentario</label>
-          <textarea name="comment" id="comment" cols="150" rows="10" tabindex="4"/></textarea>
+          <textarea name="comment" id="comment" cols="150" rows="10" tabindex="4"></textarea>
         </p>
         <input name="submit" type="submit" id="submit" tabindex="5" value="Enviar comentario" />
         <?php do_action('comment_form', $post->ID); ?>

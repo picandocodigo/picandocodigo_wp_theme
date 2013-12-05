@@ -31,15 +31,16 @@
 
     <div class="wordpress">
       Picando Código está orgulloso de ser gestionado con <a href="http://wordpress.org">WordPress</a> y es alojado por <a href="http://picod.net/hg" title="Hostgator">Hostgator</a>.
-    </p>
+    </div>
   </div>
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+	  _uacct = "UA-2107177-1";
+  	urchinTracker();
+  </script>
+  <?php wp_footer(); ?>
 </div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-	_uacct = "UA-2107177-1";
-	urchinTracker();
-</script>
-<?php wp_footer(); ?>
+</div>
 </body>
 </html>

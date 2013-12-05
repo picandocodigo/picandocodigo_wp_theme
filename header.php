@@ -4,10 +4,10 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
+  <meta charset="utf-8"/>
 
   <!-- Basic Page Needs
   ================================================== -->
-  <meta charset="utf-8">
   <title>
    <?php
     my_title();
@@ -99,6 +99,7 @@
                 <img src="<?php bloginfo('template_url');?>/images/mail.png" alt="Contacto"/>
               </a>
             </li>
+          </ul>
         </div>
       </div>
 
