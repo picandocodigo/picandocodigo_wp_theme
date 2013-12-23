@@ -385,13 +385,13 @@ float: right;
 }
 
 .wp-caption {
-	max-width: 92%; /* Keep wide captions from overflowing their container. */
-	padding: 4px;
-	background: #333;
-	border:1px solid #75A553;
-	text-align:center;
-	padding:7px 2px 2px;
+  max-width: 92%; /* Keep wide captions from overflowing their container. */
+  background: #333;
+  border:1px solid #75A553;
+  text-align:center;
+  padding: 7px 2px 0 2px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 .wp-caption p.wp-caption-text {
 	font-size:10px;
