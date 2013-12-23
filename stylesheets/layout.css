@@ -57,6 +57,24 @@ code{
   color: #231;
   padding: 0 5px;
 }
+
+dl {
+  padding: 0.5em;
+  margin: 40px 0 !important;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 110px;
+  text-align: right;
+  font-weight: bold;
+}
+dt:after {
+  content: ":";
+}
+dd {
+  margin: 0 0 10px 120px !important;
+}
 /* #Header
 ================================================== */
 #blog_title{
